@@ -6,13 +6,18 @@ public class Livro {
     private String autor;
     private Integer totalPaginas;
     private String paisOrigemAutor;
+    private boolean emprestado;
 
-    public Livro(Integer id, String titulo, String autor, Integer totalPaginas, String paisOrigemAutor) {
+    public Livro() {
+    }
+
+    public Livro(Integer id, String titulo, String autor, Integer totalPaginas, String paisOrigemAutor, boolean emprestado) {
         this.id = id;
         this.titulo = titulo;
         this.autor = autor;
         this.totalPaginas = totalPaginas;
         this.paisOrigemAutor = paisOrigemAutor;
+        this.emprestado = emprestado;
     }
 
     @Override
@@ -57,11 +62,19 @@ public class Livro {
         this.totalPaginas = totalPaginas;
     }
 
-    public String getPaisOrigem() {
+    public String getPaisOrigemAutor() {
         return paisOrigemAutor;
     }
 
-    public void setPaisOrigem(String paisOrigem) {
-        this.paisOrigemAutor = paisOrigem;
+    public void setPaisOrigemAutor(String paisOrigemAutor) {
+        this.paisOrigemAutor = paisOrigemAutor;
+    }
+
+    public boolean getEmprestado() {
+        return emprestado;
+    }
+
+    public void setEmprestado(boolean emprestado) {
+        this.emprestado = emprestado;
     }
 }
