@@ -1,4 +1,4 @@
-<h1 align="center">TESTES UNITÁRIO COM JUNIT</h1>
+<h1 align="center">TESTE UNITÁRIO COM JUNIT</h1>
 
 #Status
 - Início em 06/07/2020
