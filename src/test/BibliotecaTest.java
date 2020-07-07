@@ -113,10 +113,6 @@ public class BibliotecaTest {
             System.out.println(e.getMessage());
             Assert.assertThat(e.getMessage(), equalTo("Livro ou Leitor nulos"));
         }
-
-
-
-
     }
 
     @Test

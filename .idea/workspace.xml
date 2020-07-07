@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd84d078-179b-44ee-92b9-832f9e2f3eff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/exceptions/ValidaEmprestimoLivroException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/exceptions/ValidaListaLivrosException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestesComJUnit/main/entity/Leitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestesComJUnit/main/entity/Leitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestesComJUnit/main/entity/Livro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestesComJUnit/main/entity/Livro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestesComJUnit/main/service/Biblioteca.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestesComJUnit/main/service/Biblioteca.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestesComJUnit/test/BibliotecaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestesComJUnit/test/BibliotecaTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/entity/Leitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/entity/Leitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/entity/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/entity/Livro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/service/Biblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/service/Biblioteca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/serviceInterface/BibliotecaInterace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/serviceInterface/BibliotecaInterace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/BibliotecaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/BibliotecaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
