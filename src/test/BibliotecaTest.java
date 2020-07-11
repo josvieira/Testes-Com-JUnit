@@ -5,8 +5,8 @@ import main.entity.Livro;
 import main.exceptions.ValidaEmprestimoLivroException;
 import main.exceptions.ValidaListaLivrosException;
 import main.service.Biblioteca;
+
 import org.junit.After;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -19,12 +19,14 @@ import static org.junit.Assert.*;
 
 public class BibliotecaTest {
 
-    Biblioteca biblioteca = new Biblioteca();
-    List<Livro> acervo = new ArrayList<Livro>();
+    private Biblioteca biblioteca;
+    private List<Livro> acervo;
 
     @Before
     public void setUp(){
-        System.out.println("Entrou no before");
+        biblioteca = new Biblioteca();
+        acervo = new ArrayList<Livro>();
+
         Livro livro1 = new Livro(1, "Hibisco Roxo", "Chimamanda Ngozi", 250, "Nigéria", false);
         Livro livro2 = new Livro(2, "Angola Janga", "Marcelo D'Salete", 350, "Brasil", false);
         Livro livro3 = new Livro(3, "O Sol é para todos", "Harper Lee", 280, "USA", false);
@@ -35,7 +37,6 @@ public class BibliotecaTest {
         Livro livro8 = new Livro(8, "O Amanhã não está a venda", "Ailton Krenak", 50, "Brasil", false);
         Livro livro9 = new Livro(9, "Kindred", "Octavia E. Butler", 320, "USA", false);
         Livro livro10 = new Livro(10, "Orgulho e Preconceito", "JAne Austen", 250, "Inglaterra", false);
-
 
         acervo.add(livro1);
         acervo.add(livro2);
@@ -51,11 +52,9 @@ public class BibliotecaTest {
 
     @After
     public void tearDown(){
-        System.out.println("Entrou no after");
         this.acervo = null;
         this.biblioteca = null;
     }
-
 
     @Test
     public void cadastrarUmLivroTest(){
@@ -71,9 +70,7 @@ public class BibliotecaTest {
         System.out.println("Entrou no cadastrarUmLivroNull");
         Livro livro = new Livro();
         livro = null;//sem essa linha o método cadastrarLivro, da forma que está implementado, retorna True
-        boolean livroCadastrado = biblioteca.cadastrarLivro(livro);
-        System.out.println(livroCadastrado);
-        Assert.assertFalse("Instancia de livro Null", livroCadastrado);
+        assertFalse("Instancia de livro Null", biblioteca.cadastrarLivro(livro));
     }
 
     @Test
@@ -81,7 +78,7 @@ public class BibliotecaTest {
         Integer quantLivroCadastrado = biblioteca.cadastrarLivro(acervo);
         Integer tamanhoAcervo = acervo.size();
 
-        Assert.assertEquals(quantLivroCadastrado, tamanhoAcervo);
+        assertEquals(tamanhoAcervo, quantLivroCadastrado, 0);
     }
 
     @Test
@@ -91,7 +88,7 @@ public class BibliotecaTest {
             Integer quantLivroCadastrado = biblioteca.cadastrarLivro(listaLivros);
             fail();
         }catch (Exception e){
-            Assert.assertThat(e.getMessage(), equalTo(ValidaListaLivrosException.MSG_lISTA_INVALIDA));
+            assertThat(e.getMessage(), equalTo(ValidaListaLivrosException.MSG_lISTA_INVALIDA));
         }
     }
 
@@ -100,8 +97,8 @@ public class BibliotecaTest {
         Leitor leitor = new Leitor(1, "Maria", "maria@gmail.com");
         biblioteca.emprestarLivro(acervo.get(3), leitor);
 
-        Assert.assertFalse(leitor.getLivrosEmprestados().isEmpty());
-        Assert.assertTrue(acervo.get(3).getEmprestado());
+        assertFalse(leitor.getLivrosEmprestados().isEmpty());
+        assertTrue(acervo.get(3).getEmprestado());
     }
 
     @Test
@@ -111,7 +108,7 @@ public class BibliotecaTest {
             fail();
         }catch (Exception e){
             System.out.println(e.getMessage());
-            Assert.assertThat(e.getMessage(), equalTo("Livro ou Leitor nulos"));
+            assertThat(e.getMessage(), equalTo("Livro ou Leitor nulos"));
         }
     }
 
@@ -124,7 +121,7 @@ public class BibliotecaTest {
             biblioteca.emprestarLivro(livro, leitor);
             fail();
         }catch (Exception e){
-            Assert.assertThat(e.getMessage(), equalTo(MSG_LIVRO_EMPRESTADO));
+            assertThat(e.getMessage(), equalTo(MSG_LIVRO_EMPRESTADO));
         }
     }
 }

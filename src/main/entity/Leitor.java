@@ -8,11 +8,13 @@ public class Leitor {
     private String nome;
     private String email;
     private List<Livro> livrosEmprestados;
+    private List<Leitura> historicoDeLeituras;
 
     public Leitor(Integer id, String nome, String email) {
         this.id = id;
         this.nome = nome;
         this.email = email;
+        this.historicoDeLeituras = new ArrayList<Leitura>();
         this.livrosEmprestados = new ArrayList<Livro>();
     }
 
@@ -54,5 +56,13 @@ public class Leitor {
 
     public void setLivrosEmprestados(List<Livro> livrosEmprestados) {
         this.livrosEmprestados = livrosEmprestados;
+    }
+
+    public List<Leitura> getHistoricoDeLeituras() {
+        return historicoDeLeituras;
+    }
+
+    public void setHistoricoDeLeituras(List<Leitura> historicoDeLeituras) {
+        this.historicoDeLeituras = historicoDeLeituras;
     }
 }

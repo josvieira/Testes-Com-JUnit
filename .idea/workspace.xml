@@ -2,6 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd84d078-179b-44ee-92b9-832f9e2f3eff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/exceptions/ValidaLivroEmprestado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/DiarioLeiturasTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestesComJUnit/main/entity/Leitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestesComJUnit/main/entity/Leitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestesComJUnit/main/entity/Leitura.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestesComJUnit/main/entity/Leitura.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestesComJUnit/main/service/DiarioLeituras.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestesComJUnit/main/service/DiarioLeituras.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TestesComJUnit/test/BibliotecaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestesComJUnit/test/BibliotecaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/entity/Leitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/entity/Leitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/entity/Leitura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/entity/Leitura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/service/DiarioLeituras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/service/DiarioLeituras.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/BibliotecaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/BibliotecaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -36,45 +47,24 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Exercicios-Aula_Java/aula6" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BibliotecaTest.emprestarLivroParamNullTest">
-    <configuration name="BibliotecaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestesComJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.BibliotecaTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BibliotecaTest.cadastrarListaLivroNullTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestesComJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.BibliotecaTest" />
-      <option name="METHOD_NAME" value="cadastrarListaLivroNullTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.DiarioLeiturasTest.registrarLeituraLivroNaoEmprestadoTest">
     <configuration name="BibliotecaTest.emprestarLivroEmprestadoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestesComJUnit" />
       <extension name="coverage">
@@ -107,7 +97,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BibliotecaTest.emprestarLivroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DiarioLeiturasTest.registrarHistoricoLeituraLivroNullTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestesComJUnit" />
       <extension name="coverage">
         <pattern>
@@ -116,8 +106,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.BibliotecaTest" />
-      <option name="METHOD_NAME" value="emprestarLivroTest" />
+      <option name="MAIN_CLASS_NAME" value="test.DiarioLeiturasTest" />
+      <option name="METHOD_NAME" value="registrarHistoricoLeituraLivroNullTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiarioLeiturasTest.registrarHistoricoLeituraTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestesComJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.DiarioLeiturasTest" />
+      <option name="METHOD_NAME" value="registrarHistoricoLeituraTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiarioLeiturasTest.registrarLeituraLivroNaoEmprestadoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestesComJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.DiarioLeiturasTest" />
+      <option name="METHOD_NAME" value="registrarLeituraLivroNaoEmprestadoTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DiarioLeiturasTest.registrarLeituraLivroNaoEmprestadoTest" />
+        <item itemvalue="JUnit.DiarioLeiturasTest.registrarHistoricoLeituraLivroNullTest" />
+        <item itemvalue="JUnit.DiarioLeiturasTest.registrarHistoricoLeituraTest" />
         <item itemvalue="JUnit.BibliotecaTest.emprestarLivroParamNullTest" />
         <item itemvalue="JUnit.BibliotecaTest.emprestarLivroEmprestadoTest" />
-        <item itemvalue="JUnit.BibliotecaTest.emprestarLivroTest" />
-        <item itemvalue="JUnit.BibliotecaTest" />
-        <item itemvalue="JUnit.BibliotecaTest.cadastrarListaLivroNullTest" />
       </list>
     </recent_temporary>
   </component>
@@ -155,10 +177,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="397" y="201" width="628" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741@67.27.1299.741" timestamp="1594015799189" />
-    <state x="524" y="83" width="544" height="626" key="#com.intellij.ide.util.MemberChooser" timestamp="1594099663728">
+    <state x="524" y="83" width="544" height="626" key="#com.intellij.ide.util.MemberChooser" timestamp="1594445192346">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="524" y="83" width="544" height="626" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1594099663728" />
+    <state x="524" y="83" width="544" height="626" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1594445192346" />
     <state x="422" y="66" width="579" height="661" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1593991738296">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -167,38 +189,42 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="461" y="140" width="501" height="513" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1594104284830" />
-    <state width="1253" height="245" key="GridCell.Tab.0.bottom" timestamp="1594104132516">
+    <state width="1253" height="245" key="GridCell.Tab.0.bottom" timestamp="1594447843180">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="245" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1594104132516" />
-    <state width="1253" height="245" key="GridCell.Tab.0.center" timestamp="1594104132515">
+    <state width="1253" height="245" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1594447843180" />
+    <state width="1253" height="245" key="GridCell.Tab.0.center" timestamp="1594447843179">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="245" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1594104132515" />
-    <state width="1253" height="245" key="GridCell.Tab.0.left" timestamp="1594104132515">
+    <state width="1253" height="245" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1594447843179" />
+    <state width="1253" height="245" key="GridCell.Tab.0.left" timestamp="1594447843179">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="245" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1594104132515" />
-    <state width="1253" height="245" key="GridCell.Tab.0.right" timestamp="1594104132516">
+    <state width="1253" height="245" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1594447843179" />
+    <state width="1253" height="245" key="GridCell.Tab.0.right" timestamp="1594447843180">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="245" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1594104132516" />
-    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1594014209308">
+    <state width="1253" height="245" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1594447843180" />
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1594390666645">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1594014209308" />
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1594390666645" />
     <state x="388" y="292" width="646" height="208" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1594016727315">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="388" y="292" width="646" height="208" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/67.27.1299.741@67.27.1299.741" timestamp="1594016727315" />
+    <state x="490" y="71" width="442" height="650" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1594391882723">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="490" y="71" width="442" height="650" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1299.741@67.27.1299.741" timestamp="1594391882723" />
     <state x="67" y="27" width="1289" height="741" key="new project wizard" timestamp="1594015694101">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="67" y="27" width="1289" height="741" key="new project wizard/67.27.1299.741@67.27.1299.741" timestamp="1594015694101" />
-    <state x="461" y="27" width="500" height="741" key="refactoring.ChangeSignatureDialog" timestamp="1594099588285">
+    <state x="461" y="27" width="500" height="741" key="refactoring.ChangeSignatureDialog" timestamp="1594445152196">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="461" y="27" width="500" height="741" key="refactoring.ChangeSignatureDialog/67.27.1299.741@67.27.1299.741" timestamp="1594099588285" />
+    <state x="461" y="27" width="500" height="741" key="refactoring.ChangeSignatureDialog/67.27.1299.741@67.27.1299.741" timestamp="1594445152196" />
     <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1594014308719">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
