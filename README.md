@@ -2,7 +2,11 @@
 
 #Status
 - Início em 06/07/2020
+
 - Finalizado em 10/07/2020
+
+- Finalizado :
+
 
 #Descrição
 <p align="justify">
