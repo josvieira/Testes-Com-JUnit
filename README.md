@@ -2,7 +2,7 @@
 
 #Status
 - Início em 06/07/2020
-- Em desenvolvimento :warning:
+- Finalizado :
 
 #Descrição
 <p align="justify">
