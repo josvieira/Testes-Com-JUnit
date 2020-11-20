@@ -58,7 +58,6 @@ public class BibliotecaTest {
 
     @Test
     public void cadastrarUmLivroTest(){
-        System.out.println("Entrou no cadastrarUmLivro");
         boolean livroCadastrado = biblioteca.cadastrarLivro(acervo.get(0));
 
         assertTrue("Livro cadastrado com Sucesso", livroCadastrado);
@@ -107,8 +106,7 @@ public class BibliotecaTest {
             biblioteca.emprestarLivro(null, null);
             fail();
         }catch (Exception e){
-            System.out.println(e.getMessage());
-            assertThat(e.getMessage(), equalTo("Livro ou Leitor nulos"));
+           assertThat(e.getMessage(), equalTo("Livro ou Leitor nulos"));
         }
     }
 

@@ -1,7 +1,5 @@
 package main.entity;
 
-import java.util.Date;
-
 public class Leitura {
     private Integer id;
     private Leitor idLeitor;

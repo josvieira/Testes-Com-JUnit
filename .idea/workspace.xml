@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd84d078-179b-44ee-92b9-832f9e2f3eff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/exceptions/ValidaLivroEmprestado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/DiarioLeiturasTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/SuitTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestesComJUnit/main/entity/Leitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestesComJUnit/main/entity/Leitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestesComJUnit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TestesComJUnit.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TestesComJUnit/main/entity/Leitura.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestesComJUnit/main/entity/Leitura.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestesComJUnit/main/service/DiarioLeituras.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestesComJUnit/main/service/DiarioLeituras.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TestesComJUnit/test/BibliotecaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestesComJUnit/test/BibliotecaTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/entity/Leitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/entity/Leitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/entity/Leitura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/entity/Leitura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/service/DiarioLeituras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/service/DiarioLeituras.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/BibliotecaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/BibliotecaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +34,6 @@
   <component name="ProjectId" id="1eHw2p0oD1LguuPIPtoFc1fnvDh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -51,7 +47,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Exercicios-Aula_Java/aula6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -64,23 +60,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DiarioLeiturasTest.registrarLeituraLivroNaoEmprestadoTest">
-    <configuration name="BibliotecaTest.emprestarLivroEmprestadoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestesComJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.BibliotecaTest" />
-      <option name="METHOD_NAME" value="emprestarLivroEmprestadoTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SuitTests">
     <configuration name="BibliotecaTest.emprestarLivroParamNullTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestesComJUnit" />
       <extension name="coverage">
@@ -145,16 +125,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SuitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestesComJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.SuitTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SuitTests" />
         <item itemvalue="JUnit.DiarioLeiturasTest.registrarLeituraLivroNaoEmprestadoTest" />
         <item itemvalue="JUnit.DiarioLeiturasTest.registrarHistoricoLeituraLivroNullTest" />
         <item itemvalue="JUnit.DiarioLeiturasTest.registrarHistoricoLeituraTest" />
         <item itemvalue="JUnit.BibliotecaTest.emprestarLivroParamNullTest" />
-        <item itemvalue="JUnit.BibliotecaTest.emprestarLivroEmprestadoTest" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -185,26 +181,26 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="422" y="66" width="579" height="661" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/67.27.1299.741@67.27.1299.741" timestamp="1593991738296" />
-    <state x="461" y="140" width="501" height="513" key="FileChooserDialogImpl" timestamp="1594104284830">
+    <state x="461" y="140" width="501" height="513" key="FileChooserDialogImpl" timestamp="1598284485976">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="461" y="140" width="501" height="513" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1594104284830" />
-    <state width="1253" height="245" key="GridCell.Tab.0.bottom" timestamp="1594447843180">
+    <state x="461" y="140" width="501" height="513" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1598284485976" />
+    <state width="1253" height="245" key="GridCell.Tab.0.bottom" timestamp="1594782502566">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="245" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1594447843180" />
-    <state width="1253" height="245" key="GridCell.Tab.0.center" timestamp="1594447843179">
+    <state width="1253" height="245" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1594782502566" />
+    <state width="1253" height="245" key="GridCell.Tab.0.center" timestamp="1594782502565">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="245" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1594447843179" />
-    <state width="1253" height="245" key="GridCell.Tab.0.left" timestamp="1594447843179">
+    <state width="1253" height="245" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1594782502565" />
+    <state width="1253" height="245" key="GridCell.Tab.0.left" timestamp="1594782502565">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="245" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1594447843179" />
-    <state width="1253" height="245" key="GridCell.Tab.0.right" timestamp="1594447843180">
+    <state width="1253" height="245" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1594782502565" />
+    <state width="1253" height="245" key="GridCell.Tab.0.right" timestamp="1594782502565">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="245" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1594447843180" />
+    <state width="1253" height="245" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1594782502565" />
     <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1594390666645">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -217,10 +213,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="490" y="71" width="442" height="650" key="com.intellij.testIntegration.createTest.CreateTestDialog/67.27.1299.741@67.27.1299.741" timestamp="1594391882723" />
-    <state x="67" y="27" width="1289" height="741" key="new project wizard" timestamp="1594015694101">
+    <state x="67" y="27" width="1289" height="741" key="new project wizard" timestamp="1597954995292">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="67" y="27" width="1289" height="741" key="new project wizard/67.27.1299.741@67.27.1299.741" timestamp="1594015694101" />
+    <state x="67" y="27" width="1289" height="741" key="new project wizard/67.27.1299.741@67.27.1299.741" timestamp="1597954995292" />
     <state x="461" y="27" width="500" height="741" key="refactoring.ChangeSignatureDialog" timestamp="1594445152196">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
